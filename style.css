@@ -1,0 +1,27 @@
+@charset "utf-8";
+/*CSS Reset*/
+html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, img,
+dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,canvas,a
+{margin: 0;padding: 0;border: 0;outline: 0;font-size: 100%;vertical-align: baseline;list-style:none;box-sizing:border-box;}
+html {height:100%;}
+body {line-height: 1;height:100%;
+font:62.5% 'Hiragino Pro W3','Hiragino Kaku Gothic Pro',Meiryo,'MS Gothis UI',sans-serif;}
+table {border-collapse: collapse;border-spacing: 0;}
+div{text-align:left;}
+input, select {vertical-align: middle;margin: 0;padding: 0;}
+select,input,button,textarea,button{font:99% arial,helvetica,clean,sans-serif;}
+article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary{display:block;}
+
+
+body{
+	background:#eee;
+	padding:10px 20px;
+	color:#666;
+	orverflow:auto;
+}
+h1{margin:5px 0 10px;font-size:2.6em;}
+h2{margin:5px 0;font-size:1.8em;}
+a{text-decoration:none;color:#999;font-size:1.2em;}
+ul{margin-left:20px;}
+li{list-style:circle;}
+footer{margin:50px 0;font-family:monospace;font-size:1.2em;}
